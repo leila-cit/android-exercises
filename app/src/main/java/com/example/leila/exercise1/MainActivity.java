@@ -1,5 +1,6 @@
 package com.example.leila.exercise1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btnList)
     public void OnBtnListClicked(View view){
-        Toast.makeText(MainActivity.this, "Botão 1 clicado", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(getApplicationContext(), ListActivity.class);
+        startActivity(i);
     }
 
     @OnClick(R.id.btnClose)

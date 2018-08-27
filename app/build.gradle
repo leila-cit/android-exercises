@@ -27,8 +27,16 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-def BUTTER_KNIFE_VERSION="8.5.1" //current version of butterknife
+def BUTTER_KNIFE_VERSION = "8.5.1" //current version of butterknife
 dependencies {
     compile "com.jakewharton:butterknife:$BUTTER_KNIFE_VERSION"
     annotationProcessor "com.jakewharton:butterknife-compiler:$BUTTER_KNIFE_VERSION"
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
 }
