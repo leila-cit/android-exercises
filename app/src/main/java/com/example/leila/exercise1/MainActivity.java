@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btnList)
     public void OnBtnListClicked(View view){
-        Intent i = new Intent(getApplicationContext(),ListActivity.class);
+        Intent i = new Intent(getApplicationContext(), ListActivity.class);
         startActivity(i);
     }
 

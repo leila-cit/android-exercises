@@ -13,7 +13,7 @@ public class SplashActivity extends AppCompatActivity implements CountdownListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        new Timer(SPLASH_DISPLAY_TIME,1000,this).start();
+        new Timer(SPLASH_DISPLAY_TIME, 1000, this).start();
 
     }
 

@@ -20,7 +20,7 @@ public class Timer extends CountDownTimer {
 
     @Override
     public void onTick(long millisUntilFinished) {
-
+        //Not implemented
     }
 
     @Override
